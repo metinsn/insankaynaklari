@@ -16,13 +16,13 @@ namespace insankaynaklari
             {
                 maas += satisadeti * 10;
             }
-            else if (satisadeti <= 20) 
+            else if (satisadeti <= 20)
             {
                 maas *= satisadeti * 30;
-                            }
+            }
             else
             {
-                maas += satisadeti * 10;    
+                maas += satisadeti * 10;
             }
             return maas;
         }
